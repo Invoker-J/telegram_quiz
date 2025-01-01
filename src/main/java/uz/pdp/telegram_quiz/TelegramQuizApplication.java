@@ -16,8 +16,7 @@ public class TelegramQuizApplication {
 
     @Bean
     public TelegramBot telegramBot(){
-        return new TelegramBot("7807856924:AAFbrW51Ciul5y4fJtuRit9Inx2-HjCpkQU");
-//        return new TelegramBot("6460766008:AAFGN-i4fSYv2l5UBCGpskbsuzSiJ_Xl0WE"   );
+        return new TelegramBot("YOUR_BOT_TOKEN");
     }
 
     @Bean
